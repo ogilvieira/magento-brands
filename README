@@ -17,13 +17,25 @@
  - Add the Attribute to the Attribute Set
  
 +=============================================================+
+
+ DEPENDANTS
+ - WideImage
+ - jQuery (Frontend)
+ - Attain JS (Frontend)
+ - Attain Slider (Frontend)
+
++=============================================================+
  TODO's
  - Test on a couple of Fresh Installs
  - DB is completely untested!
  - Add a Config Section so that you can specify the height, width and canvas etc...
  
++=============================================================+ 
+ 
  UPDATES
  - 
+ 
++=============================================================+ 
  
  BUGS
  - 

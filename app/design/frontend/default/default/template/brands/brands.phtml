@@ -1,1 +1,31 @@
-<h1>New Extension</h1>
+<div id="brands">
+	<h4>Our brands</h4>
+	<div class="inner">
+		<ul class="holder">
+			<?php
+			$brands = Mage::getSingleton('brands/brands')	->getCollection()
+															->addStatusToFilter();
+
+			foreach( $brands as $brand ){
+				?>
+				<li>
+					<a href="<?php echo $this->getUrl('catalogsearch/result'); ?>?brand=<?php echo $brand->getAttributeId();?>&q=<?php echo $brand->getName();?>"><img src="<?php echo DS . 'media' . DS . $brand->getFileName();?>" alt="<?php echo $brand->getName();?>" /></a>
+				</li>
+				<?
+			}
+			?>
+		</ul>
+	</div>
+</div>
+<script type="text/javascript">
+(function(w,d,$,u){
+	$('#brands').attainProductSlider({
+		display       : 6,
+		slide         : 1,
+		btn_previous  : 'previous',
+		btn_next      : 'next',
+		show_buttons  : true,
+		speed         : 300
+	});
+}(window,document,jQuery));
+</script>
