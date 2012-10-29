@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<brands_adminhtml_brands_index>
+		<reference name="content">
+			<block type="brands/adminhtml_brands" name="brands" />
+		</reference>
+	</brands_adminhtml_brands_index>
+	
+	<brands_adminhtml_brands_edit>
+		<update handle="editor"/>
+		<reference name="head">
+			<action method="setCanLoadTinyMce">
+				<param>1</param>
+			</action>
+		</reference>
+	</brands_adminhtml_brands_edit>
+	
+	<brands_adminhtml_brands_new>
+		<update handle="editor"/>
+		<reference name="head">
+			<action method="setCanLoadTinyMce">
+				<param>1</param>
+			</action>
+		</reference>
+	</brands_adminhtml_brands_new>
+</layout>

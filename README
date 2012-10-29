@@ -1,0 +1,29 @@
++=============================================================+
+ MAGENTO EXTENSION BRANDS
++=============================================================+
+ 
+ company:   Attain Design
+ author:    Nathan Chick
+ version:   0.0.1
+ 
++=============================================================+
+ IMPLEMENTATION
+ - Move Files
+ - Add a new Attribute called 'brands'
+        - Global
+        - Drop Down
+        - Use in Product Listing
+        - Use in Layered Nav
+ - Add the Attribute to the Attribute Set
+ 
++=============================================================+
+ TODO's
+ - Test on a couple of Fresh Installs
+ - DB is completely untested!
+ 
+ 
+ UPDATES
+ - 
+ 
+ BUGS
+ - 

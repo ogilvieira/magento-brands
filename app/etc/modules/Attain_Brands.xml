@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Attain_Brands>
+			<active>true</active>
+			<codePool>local</codePool>
+		</Attain_Brands>
+	</modules>
+</config> 
