@@ -15,6 +15,19 @@
         - Use in Product Listing
         - Use in Layered Nav
  - Add the Attribute to the Attribute Set
+ - Create a table
+```SQL
+ CREATE TABLE `brands` (
+  `brands_id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` text,
+  `description` text,
+  `status` int(1) DEFAULT NULL,
+  `attribute_id` int(11) DEFAULT NULL,
+  `brandscol` text,
+  `file_name` text,
+  PRIMARY KEY (`brands_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+```
  
 +=============================================================+
 
